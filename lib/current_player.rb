@@ -5,6 +5,7 @@ def turn_count(board)
     if board_space != " "
       counter += 1
     end
+  end
   puts "#{count}"
   return counter
 end
